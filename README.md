@@ -6,7 +6,7 @@ Pertanian menjadi salah satu kunci kesuksesan perekonomian di Indonesia. Oleh ka
 <ul>
   <li><a href="#bentuk">Bentuk Alat</a></li>
   <li><a href="#buatAlat">Proses Pembuatan</a></li>
-  <li><a href="#code">Code</a></li>
+  <li><a href="#code">Konfigurasi Code</a></li>
 </ul>
 
 ## Smart Farming System - Overview
@@ -23,3 +23,6 @@ Untuk langkah pembuatan alat sendiri, dimulai dengan perencanaan sistem seperti 
 Setelah pembuatan desain 3D, langkah selanjutnya adalah pembuatan skematik rangkaian alat. Skematik ini berisi hubungan antara komponen secara lebih detail. Pada proses ini, menitik beratkan kepada hubungan komponen dengan masing-masing pin.
 Setelah itu, langkah selanjutnya adalah pembuatan bentuk fisik alat, pembuatan rangkaian yang didalamnya juga ada pembuatan PCB, serta pembuatan program. Ketiga langkah ini merupakan bagian dari proses uji coba. Jika implementasi  masih belum sesuai dengan spesifikasi, maka dapat diperbaiki kembali.
 Setelah tahap uji coba selesai, maka akan dilanjutkan dengan tahap finishing. Pada tahap ini, alat sudah dipasangkan ke lingkungan kerjanya dan juga dilakukan proses untuk merapikan alat.
+
+## Konfigurasi Code
+<div id="code"></div>
