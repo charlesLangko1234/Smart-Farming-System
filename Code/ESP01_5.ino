@@ -2,9 +2,9 @@
 * ArduFarmBot Light - Remote controling a plantation
 * 
 * ThingSpeak ID Channels: 
-*   Status (Actuators and Sensors): 999999
-*   Actuator1: 1741804 (Pompa air)
-*   Actuator2: 1741806 (Pompa Pupuk)
+*   Status (Actuators and Sensors): ******
+*   Actuator1: ****** (Pompa air)
+*   Actuator2: ****** (Pompa Pupuk)
 * 
 * Sensors:
 *   DHT (2-wire Air Temperature/Humidity digital sensor)  ==> Pin D11
@@ -22,11 +22,11 @@
 *****************************************************/
 
 // Thingspeak  
-String statusChWriteKey = "LTSQGBI07YK6HRWZ";  // Status Channel id: 385184
+String statusChWriteKey = "******";  // Status Channel id: 385184
 
-String canalID1 = "1741804"; // Enter your Actuator1 Channel ID here
-String canalID2 = "1741806"; // Enter your Actuator1 Channel ID here
-String canalID3 = "1744440";
+String canalID1 = "******"; // Enter your Actuator1 Channel ID here
+String canalID2 = "******"; // Enter your Actuator1 Channel ID here
+String canalID3 = "******";
 
 #include <SoftwareSerial.h>
 SoftwareSerial EspSerial(6, 7); // Rx,  Tx
@@ -358,7 +358,7 @@ void startThingSpeakCmd(void)
   EspSerial.flush();//limpa o buffer antes de começar a gravar
   
   String cmd = "AT+CIPSTART=\"TCP\",\"";
-  cmd += "184.106.153.149"; // Endereco IP de api.thingspeak.com
+  cmd += "***.***.***.**"; // Endereco IP de api.thingspeak.com
   cmd += "\",80";
   EspSerial.println(cmd);
   Serial.print("enviado ==> Start cmd: ");
@@ -415,7 +415,7 @@ String sendThingSpeakGetCmd(String getStr)
 void connectWiFi(void)
 {
   sendData("AT+RST\r\n", 2000, 0); // reset
-  sendData("AT+CWJAP=\"Redmi\",\"qwertyuiop\"\r\n", 2000, 0); //Connect network
+  sendData("AT+CWJAP=\"ssid\",\"password\"\r\n", 2000, 0); //Connect network
   delay(3000);
   sendData("AT+CWMODE=1\r\n", 1000, 0);
   sendData("AT+CIFSR\r\n", 1000, 0); // Show IP Adress
