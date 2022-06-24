@@ -11,6 +11,4 @@ Pertanian menjadi salah satu kunci kesuksesan perekonomian di Indonesia. Oleh ka
 
 ## Smart Farming System - Overview
 <div id="bentuk"></div>
-<video width="320" height="240" autoplay>
-  <source src="https://drive.google.com/drive/folders/1YNbP9y2sKAdOUweUSLAppme3EDXaZzOp" type="video/mp4">
-</video>
+<img src="https://github.com/charlesLangko1234/Smart-Farming-System/edit/main/IOT%20COMPETITION%20EEF/PAMFLET_PAGE1.png" align="left" alt="Bentuk Luar Alat" style="width: 200px; height:260px;"/>
