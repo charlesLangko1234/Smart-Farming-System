@@ -24,6 +24,6 @@ Setelah pembuatan desain 3D, langkah selanjutnya adalah pembuatan skematik rangk
 Setelah itu, langkah selanjutnya adalah pembuatan bentuk fisik alat, pembuatan rangkaian yang didalamnya juga ada pembuatan PCB, serta pembuatan program. Ketiga langkah ini merupakan bagian dari proses uji coba. Jika implementasi  masih belum sesuai dengan spesifikasi, maka dapat diperbaiki kembali.
 Setelah tahap uji coba selesai, maka akan dilanjutkan dengan tahap finishing. Pada tahap ini, alat sudah dipasangkan ke lingkungan kerjanya dan juga dilakukan proses untuk merapikan alat.
 
-<br><br>
+<br>
 ## Konfigurasi Code
 <div id="code"></div>
