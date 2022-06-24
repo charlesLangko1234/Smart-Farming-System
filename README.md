@@ -15,6 +15,6 @@ Pertanian menjadi salah satu kunci kesuksesan perekonomian di Indonesia. Oleh ka
 
 Dalam proses pengembangannya, alat ini dibuat berbentuk box, dimana rangakian listrik alat ini ditempatkan di dalamnya. Tampak luar alat hanyalah OLED, button untuk pengontrolan menu, kipas saluran udara, serta switch untuk mematikan dan menghidupkan alat. Lalu, disamping kiri dan kanan alat juga terdapat penampung air dan pupuk cair kecil, untuk emnyalurkan air dan pupuk menuju ke tanaman.
 
-<br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br>
 ## Proses Pembuatan
 <div id="buatAlat"></div>
