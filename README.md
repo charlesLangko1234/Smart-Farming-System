@@ -13,5 +13,4 @@ Pertanian menjadi salah satu kunci kesuksesan perekonomian di Indonesia. Oleh ka
 <div id="bentuk"></div>
 <video width="320" height="240" autoplay>
   <source src="https://drive.google.com/drive/folders/1YNbP9y2sKAdOUweUSLAppme3EDXaZzOp" type="video/mp4">
-Your browser does not support the video tag.
 </video>
