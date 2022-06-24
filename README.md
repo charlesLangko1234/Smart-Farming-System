@@ -27,3 +27,31 @@ Setelah tahap uji coba selesai, maka akan dilanjutkan dengan tahap finishing. Pa
 <br><br>
 ## Konfigurasi Code
 <div id="code"></div>
+Library yang harus di downlaod adalah :
+<pre>
+Adafruit_SSD1306.h
+Adafruit_GFX.h
+DHT.h
+stdlib.h
+</pre>
+
+Lalu, karena code ini akan dihubungkan dengan MIT Inventor dan juga thingspeak, maka perlu dilakukan beberapa konfigurasi juga seperti
+<pre>
+// Thingspeak - Bagian ini diisi dengan API key thingspeak
+String statusChWriteKey = ""; 
+
+//Penghubung ke kanal ID thingspeak
+String canalID1 = ""; // Enter your Actuator1 Channel ID here
+String canalID2 = ""; // Enter your Actuator1 Channel ID here
+String canalID3 = ""; // Enter your Actuator1 Channel ID here
+</pre>
+
+Pada fungsi startThingSpeakCmd(), bagian berikut harus diganti dengan IP thingspeak yang digunakan :
+<pre>
+cmd += "***.***.***.**"; // Endereco IP de api.thingspeak.com
+</pre>
+
+Juga, pada fungsi void connectWiFi(void), bagian tersebut harus diganti dengan ssid dan password yang digunaka.
+<pre>
+sendData("AT+CWJAP=\"ssid\",\"password\"\r\n", 2000, 0); //Connect network
+</pre>
